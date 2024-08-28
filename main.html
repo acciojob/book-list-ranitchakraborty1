@@ -8,6 +8,29 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	   <div class="container mt-5">
+        <h1 class="text-center">MyBookList</h1>
+        <div class="form-group">
+            <input type="text" id="title" class="form-control mb-2" placeholder="Book Title"><br><br>
+            <input type="text" id="author" class="form-control mb-2" placeholder="Author"><br><br>
+            <input type="text" id="isbn" class="form-control mb-2" placeholder="ISBN#"><br><br>
+            <button id="submit" class="btn btn-primary btn-block">Add Book</button>
+        </div>
+
+        <table class="table table-striped mt-5">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN#</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+                <!-- Book entries will appear here -->
+            </tbody>
+        </table>
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
